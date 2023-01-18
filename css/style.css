@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #09090A;
+    height: 100vh;
+}
+
+/* body * {
+    border: 1px solid red;
+} */
+
+.cabeçalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 48px;
+}
+
+
+button {
+    padding: 16px 24px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid #8B5CF6;
+    border-radius: 8px;
+    
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 125%;
+}
