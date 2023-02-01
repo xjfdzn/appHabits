@@ -22,7 +22,7 @@ function add() {
 function save() {
   localStorage.setItem('nlwSetup@habits', JSON.stringify(nlwSetup.data))
 }
-const data = JSON.parse(localStorage.getItem("nlwSetup@habits"))
+const data = JSON.parse(localStorage.getItem("nlwSetup@habits")) || {}
 nlwSetup.setData(data)
 nlwSetup.load()
 
