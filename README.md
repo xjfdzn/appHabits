@@ -15,15 +15,6 @@ Projeto de registro diário de hábitos
 
 ## 🚀 Tecnologias
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
-
-- HTML
-- CSS
-- Javascript
-
-
-## :memo: Licença
-
-Esse projeto está sob a licença MIT.
+Projeto desenvolvido com HTML, CSS e Javascript:
 
 ---
